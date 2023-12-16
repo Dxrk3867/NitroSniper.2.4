@@ -10,9 +10,7 @@ from colorama import Fore
 from playsound import playsound
 from discord.ext import commands
 
-#
-# CONFIG INPUT
-#
+# CONFIG 
 with open("config.json") as f:
     config = json.load(f)
 onalt = config.get("on_alt")
@@ -29,9 +27,7 @@ sound_notification = config.get("sound_notification")
 webhook = config.get("webhook")
 botlist = config.get("bot_list")
 altlist = config.get("alt_list")
-#
-# END OF CONFIG INPUT
-#
+# CONFIG END
 sname = ""
 stag = ""
 if os.path.isfile("tried-nitro-codes.txt"):
@@ -64,14 +60,18 @@ def codestart():
         ddelay = " "
     print(
         f"""{Fore.RESET}
-                                     {Fore.GREEN}╔═╗  ╔╗╔  ╦  ╦═╗  ╦═╗  ╦═╗
-                                     {Fore.LIGHTBLACK_EX}╚═╗  ║║║  ║  ╠═╝  ╠╣   ╠╦╝
-                                     {Fore.WHITE}╚═╝  ╝╚╝  ╩  ╩    ╩═╝  ╩╚═
+                                     {Fore.WHITE}  _____            _     _____ _   _ _                 
+                                     {Fore.GREEN} |  __ \          | |   / ____| \ | (_)                
+                                     {Fore.WHITE} | |  | |_  ___ __| | _| (___ |  \| |_ _ __   ___ _ __ 
+                                     {Fore.GREEN} | |  | \ \/ / '__| |/ /\___ \| . ` | | '_ \ / _ \ '__|
+                                     {Fore.WHITE} | |__| |>  <| |  |   < ____) | |\  | | |_) |  __/ |   
+                                     {Fore.GREEN} |_____//_/\_\_|  |_|\_\_____/|_| \_|_| .__/ \___|_|   
+                                     {Fore.WHITE}                                      | |              
+                                     {Fore.GREEN}                                      |_|              
 
+                                     {Fore.GREEN}Connected User     -  {Fore.GREEN}{Sniper.user.name}#{Sniper.user.discriminator}
 
-                                     {Fore.WHITE}Connected User     -  {Fore.GREEN}{Sniper.user.name}#{Sniper.user.discriminator}
-
-                                     {Fore.WHITE}Nitro Sniper    -  {Fore.GREEN}{nitro_sniper} {onaltt}
+                                     {Fore.BLUE}Nitro Sniper    -  {Fore.GREEN}{nitro_sniper} {onaltt}
                                      {Fore.WHITE}Giveaway Sniper -  {Fore.GREEN}{giveaway_sniper} {ddelay}
 
     """
@@ -80,7 +80,7 @@ def codestart():
 
 
 colorama.init()
-Sniper = commands.Bot(description="Discord Sniper", command_prefix="", self_bot=True)
+Sniper = commands.Bot(description="Discord Sniper.2.4", command_prefix="", self_bot=True)
 
 
 def Clear():
