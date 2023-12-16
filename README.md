@@ -26,9 +26,8 @@
 ## Usage:
 
 1. First Turn off your Anti Virus (its Not a Virus but it detects it as one) and then Open The "Settings.json" And Change your Token in line 3 "YOUR TOKEN HERE"
-2. Second Open The "NitroSniper.exe"
+2. Second Open The "install.bat" file then run the "launch.bat" file
 3. Third Open The Folder Named "Extension For NitroSniper" and open the "config.json" file and change your token on line 2
-4. Fourth open the "install.bat" file and then the "Main.exe" and "Main.py" File
-6. Then your All set :)
+4. Then your All set :)
 
 `WARNING: Using a selfbot is against Discord's TOS, It's not my fault if you get a ban when someone reports you`
