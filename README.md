@@ -23,18 +23,12 @@
 - Removed some useless code
 - If you have enable nitro reedem on other account or delay, it will show you on main page
 
-`You can recommend what to add in Issues!`
-
 ## Usage:
 
-1. Config settings and token in `config.json`
-2. Open install.bat or install.sh (It is preferable to use a [virtual environment](https://docs.python.org/3/library/venv.html), due to the conflict between regular discord.py and discord.py-self)
-3. Open launch.bat or launch.sh
-4. All set :)
-redeemed
-## Settings:
-
-## Showcase:
-
+1. First Open The "Settings.json" And Change your Token in line 3 "YOUR TOKEN HERE"
+2. Second Open The "NitroSniper.exe"
+3. Third Open The Folder Named "Extension For NitroSniper" and open the "config.json" file and change your token on line 2
+4. Fourth open the "install.bat" file and then the "Main.exe" and "Main.py" File
+6. Then your All set :)
 
 `WARNING: Using a selfbot is against Discord's TOS, It's not my fault if you get a ban when someone reports you`
